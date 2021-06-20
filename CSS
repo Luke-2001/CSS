@@ -1,0 +1,39 @@
+.cor-fundo-div {
+    color: white;
+    background-color: red;
+}
+
+/* hover ação de passar o mouse em cima */
+:hover .cor-fundo-div {
+    background-image: url('download.jfif');
+    
+}
+
+.borda-redonda {
+    border-radius: 50%;
+}
+
+.alinhamento {
+    flex: auto;
+    /* margin-top: 50%; */
+    padding-top: 50%;
+    /* margin: 50px; */
+    margin-top: 100px;           
+}
+
+/* Class sem o ponto inicial, é atribuida a uma tag  */
+/* com o respectivo nome */
+div {
+    width: 300px;
+    height: 100px;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background-color: blueviolet;
+}
+
+/* tag com # indica atribuição a um id (identificador) */
+#div1 {
+    text-align: center;
+}
